@@ -1,0 +1,166 @@
+body{
+    background-color: #1a2125;;
+    
+}
+.form-body{
+    justify-self: center;
+    justify-items: center;
+    align-items: center;
+    
+    position: absolute;
+    top:30%;
+    left: 30%;
+   
+    
+    background-color: red;
+    transform: translate(-20% -40%);
+   height: auto;
+   
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0, 0.2);
+}
+.header{
+    align-self: center;
+    position: absolute;
+    display: flex;
+    top: 15%;
+   
+    font-size: 2em;
+    font-weight: 500;
+    border-bottom: 3px solid rgb(110, 81, 81);
+}
+.select{
+    width: 50px ;
+    border-radius: 30px;
+    background-color: rgb(241, 146, 82);
+    margin-left: 10px;
+
+}
+.form-input input{
+ background-color: burlywood;    
+ margin-left: 60px;
+ border-radius: 6px;
+ height: 20px;
+}
+.form-input{
+    
+    margin-top: 5px;
+}
+.form-input button{
+    border: none;
+    border-radius: 2px;
+    padding-left: 5px;
+    color: red;
+    background-color: black;
+    box-shadow: 0px 0px 2px 1px rgb(189, 171, 171);
+
+}
+.todo-list{
+    display: flex ;
+    position: absolute;
+   align-items: center;
+   top:50px ;
+   border-radius: 30px;
+   box-shadow: 0px 0px 4px 4px rgb(129, 127, 127);
+   
+   
+   
+    background-color:black;
+   
+   min-width: 80%;
+    justify-items: center;
+    margin-left: 10%;
+    min-height: 50vh;
+    
+  
+
+
+}
+.todo h2{
+    margin-left: 10px;
+    flex: 5;
+}
+.complete-btn{
+    background-color: greenyellow;
+    width:40 px;
+    margin-right: 4px;
+    border-radius: 7px;
+    border: none;
+    
+
+   
+   
+    
+   
+    
+ 
+
+}
+.trash{
+    width:40 px;
+    margin-right: 7px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    
+   
+  
+   
+}
+.todo{
+    color: goldenrod;
+    background-color:rgba(54, 54, 52, 0.596);
+    display: flex;
+     margin-top: 3px;
+    top:12px;
+    left: 37px;
+    min-width: 200px;
+    border-radius: 10px;
+    height: 40px;
+    justify-items: center;
+    align-items: center;
+   
+    
+    justify-self: center;
+
+    
+}
+.plus-btn{
+height: 20px;
+margin-bottom: 10px;
+}
+.completed{
+    background-color: cadetblue;
+    opacity: 0.3;
+    text-decoration: line-through;
+
+}
+@media screen and (max-width:1024px){
+
+
+
+.app{
+   
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+
+}
+.form-body{
+   
+    left: 10px;
+    width: 400px;
+    
+}
+
+.header{
+    margin-left:95px ;
+    color: blanchedalmond;
+    text-shadow: 3px 3px 3px 3px white;
+    
+    font-weight: 1000;
+
+}
+}
